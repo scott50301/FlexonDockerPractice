@@ -1,25 +1,35 @@
 package com.Scott.Classes;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-import java.math.BigDecimal;
-
-
+@Entity
 public class Customers {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
 
-    private int id;
     private String firstName;
+
     private String lastName;
-    private BigDecimal phone;
+
+    private String phone;
+
     private String email;
 
-    public Customers(int id, String firstName, String lastName, BigDecimal phone, String email) {
-        this.id = id;
+    public Customers(){
+
+    }
+
+    public Customers( String firstName, String lastName, String phone, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.phone = phone;
         this.email = email;
     }
-    public int getId(){
+    public long getId(){
         return id;
     }
 
@@ -39,11 +49,11 @@ public class Customers {
         return lastName;
     }
 
-    public void setPhone(BigDecimal phone){
+    public void setPhone(String phone){
         this.phone = phone;
     }
 
-    public BigDecimal getPhone(){
+    public String getPhone(){
         return phone;
     }
 
