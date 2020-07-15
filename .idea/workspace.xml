@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc67ac25-2f55-43ee-a7ff-10a8d88c1ab2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactInfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Scott/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contactInfo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Scott/Classes/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CustomersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Scott/DAO/CustomersDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CustomersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Scott/Controllers/CustomersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Customers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CustomersDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CustomersMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/FlexonDockerPractice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contactInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/contactInfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Scott/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Scott/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Scott/Classes/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Scott/Classes/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Scott/Controllers/CustomersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Scott/Controllers/CustomersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Scott/DAO/CustomersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Scott/DAO/CustomersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Scott/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Scott/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Scott/Classes/Customers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Scott/Classes/Customers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Scott/Controllers/CustomersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Scott/Controllers/CustomersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Scott/DAO/CustomersDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Scott/DAO/CustomersDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/flexon.docker.practice-1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flexon.docker.practice-1.0.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/flexon.docker.practice-1.0.2.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/flexon.docker.practice-1.0.2.jar.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +77,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Flexon\FlexonDockerPractice" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -159,12 +159,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f91af947" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93ce009" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f91af947" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2da4c19b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93ce009" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1ebc11b9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +188,7 @@
       <workItem from="1594675977929" duration="7632000" />
       <workItem from="1594687447569" duration="762000" />
       <workItem from="1594688933819" duration="5178000" />
-      <workItem from="1594703959322" duration="567000" />
+      <workItem from="1594703959322" duration="16398000" />
     </task>
     <servers />
   </component>

@@ -9,13 +9,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.sql.*;
 import com.Scott.Classes.Customers;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
+
 
 public class CustomersDAO {
     final private String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    final private String DB_URL = "jdbc:mysql://192.168.99.100:3306/dockerDB1";
+    final private String DB_URL = "jdbc:mysql://3.20.236.5:3306/dockerDB1";
     //final private String DB_URL = "jdbc:mysql://localhost:3306/dockerDB1";
-    final private String USER = "root";
-    final private String PASS = "mypassword";
+    final private String USER = "scott";
+    final private String PASS = "Mypassword123!";
 
     private Connection conn = null;
     private Statement stmt;
@@ -44,6 +48,10 @@ public class CustomersDAO {
         return list;
     }
 
+    public List<Customers> getData() throws SQLException {
+        list = getData("SELECT * FROM `contacts_tbl`");
+        return list;
+    }
 
     public void insertData(String firstName, String lastName, BigDecimal phone, String email) throws SQLException {
         sql = "INSERT INTO contacts_tbl ( contact_name, contact_lastname, contact_phoneNume, contact_email )\n" +
@@ -51,12 +59,14 @@ public class CustomersDAO {
 
         stmt.executeUpdate(sql);
         System.out.println("new contact info has been added");
+        conn.close();
     }
 
     public void deleteById(int id) throws SQLException {
         sql = "DELETE FROM `contacts_tbl` WHERE `contactID` = "+id;
         stmt.executeUpdate(sql);
         System.out.println("User "+id + " has been deleted");
+        conn.close();
     }
 
     public void updateData(int id, String firstName, String lastName, BigDecimal phone, String email) throws SQLException {
@@ -69,6 +79,7 @@ public class CustomersDAO {
         System.out.println(sql);
         stmt.executeUpdate(sql);
         System.out.println("The contact info has been updated");
+        conn.close();
     }
 
     public void exportDate() throws SQLException, IOException {
@@ -92,5 +103,6 @@ public class CustomersDAO {
         }
         myWriter.close();
         System.out.println("Successfully wrote to the file.");
+        conn.close();
     }
 }

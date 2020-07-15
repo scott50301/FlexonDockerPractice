@@ -1,8 +1,11 @@
 package com.Scott.Classes;
 
+
 import java.math.BigDecimal;
 
+
 public class Customers {
+
     private int id;
     private String firstName;
     private String lastName;

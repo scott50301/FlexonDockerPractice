@@ -1,3 +1,4 @@
+1	Deep	Singh	1234567890	deep@devops.com
 2	Scott	Jhou	6692378432	scott60301@gmail.com
 3	Kevin	Hsu	1357924680	kevin@test.com
 4	Eric	Yang	2468135790	eric@test.com
